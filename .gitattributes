@@ -1,5 +1,7 @@
 # normalize text files to use lf
-text eol=lf
+*.sh      text eol=lf
+*.env     text eol=lf
+*.yml     text eol=lf
 
 # except these which we want crlf
 #*.txt eol=crlf
